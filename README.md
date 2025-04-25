@@ -92,3 +92,5 @@ Special thanks to VTEXS for:
 ---
 
 **Note**: This project is intended for educational purposes. Commercial use requires proper licensing.
+## ⭐ Star 增长趋势
+![Star History Chart](https://star-history.com/svg?repos=jeffernn/-Book-Management-System-Based-on-JAVA-WEB&type=Date)
