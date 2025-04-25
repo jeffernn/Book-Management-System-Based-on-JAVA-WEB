@@ -1,5 +1,3 @@
-**‼️必读‼️网址[banruoai.cn](https://banruoai.cn/)是唯一官方且安全的使用通道，您使用的服务由“般若Ai”提供，且完全免费。**
-
 # Smart Library Management System - Java Web Project
 
 ## Project Overview
