@@ -76,6 +76,6 @@ smart-library-system/
 ## 💬 支持与社区
 
 加入我们的讨论论坛以提问和分享想法：
-- [GitHub 讨论区](https://github.com/yourusername/smart-library-system/discussions) 🌐
+- [GitHub 讨论区](https://github.com/jeffernn) 🌐
 
 **⚠ 注意**：本项目仅用于教育目的。切勿用于商业用途，会追究搬迁©️。
