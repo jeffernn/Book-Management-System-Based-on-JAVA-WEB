@@ -1,94 +1,81 @@
-# Smart Library Management System - Java Web Project
+# 📚 智能图书馆管理系统 - Java Web 项目
 
-## Project Overview
+## 📖 项目概述
 
-This repository provides a comprehensive Java Web-based Smart Library Management System designed specifically for university students to learn and implement core concepts in web development. The project demonstrates fundamental principles of building a modern library management system with intelligent features.
+本仓库提供了一个基于 Java Web 的智能图书馆管理系统，专为大学生设计，用于学习和实现 Web 开发的核心概念。🚀 该项目展示了构建具有智能功能的现代图书馆管理系统的基本原理。
 
-## Key Features
+## 🔑 主要功能
 
-- **User Management**: Role-based access control (Admin, Librarian, Student)
-- **Book Management**: CRUD operations for library inventory
-- **Smart Search**: Advanced search functionality with filters
-- **Borrow/Return System**: Automated tracking of book loans
-- **Analytics Dashboard**: Visual statistics on library usage
-- **Responsive UI**: Bootstrap-powered frontend
+- **👥 用户管理**：基于角色的访问控制（管理员、图书管理员、学生）
+- **📚 图书管理**：图书库存的增删改查（CRUD）操作
+- **🔍 智能搜索**：带过滤功能的高级搜索
+- **🔄 借还系统**：图书借阅的自动化跟踪
+- **📊 分析仪表板**：图书馆使用情况的可视化统计
+- **📱 响应式界面**：基于 Bootstrap 的前端
 
-## Technology Stack
+## 🛠 技术栈
 
-| Component        | Technology Used |
-|-----------------|----------------|
-| Frontend        | JSP, HTML5, CSS3, Bootstrap 5, JavaScript |
-| Backend         | Java Servlets, JDBC |
-| Database        | MySQL |
-| Server          | Apache Tomcat |
-| Build Tool      | Maven |
+| 组件            | 使用技术                     |
+|----------------|-----------------------------|
+| 🎨 前端        | JSP、HTML5、CSS3、Bootstrap 5、JavaScript |
+| ⚙ 后端        | Java Servlets、JDBC         |
+| 🗄 数据库       | MySQL                      |
+| 🌐 服务器      | Apache Tomcat              |
+| 🔨 构建工具    | Maven                      |
 
-## Learning Objectives
+## 🎯 学习目标
 
-This project helps students understand:
-1. MVC architecture in Java web applications
-2. Database design and connectivity
-3. Session management and authentication
-4. Frontend-backend integration
-5. Deployment procedures
+本项目帮助学生理解：
+1. 🏗 Java Web 应用的 MVC 架构
+2. 🗃 数据库设计与连接
+3. 🔒 会话管理和身份验证
+4. 🔗 前后端集成
+5. 🚀 部署流程
 
-## Getting Started
+## 🚀 快速入门
 
-### Prerequisites
-- Java JDK 8+
-- Apache Tomcat 9+
-- MySQL 5.7+
-- Maven 3.6+
+### 📋 前提条件
+- ☕ Java JDK 8+
+- 🐳 Apache Tomcat 9+
+- 🗄 MySQL 5.7+
+- 🛠 Maven 3.6+
 
-### Installation
-1. Clone the repository:
+### 🛠 安装步骤
+1. 克隆仓库：
    ```bash
    git clone https://github.com/yourusername/smart-library-system.git
    ```
-2. Import the project in your preferred IDE (Eclipse/IntelliJ)
-3. Configure database connection in `src/main/resources/db.properties`
-4. Run the SQL scripts in `database/` to set up the schema
-5. Deploy on Tomcat server
+2. 在你喜欢的 IDE（Eclipse/IntelliJ）中导入项目
+3. 在 `src/main/resources/db.properties` 中配置数据库连接
+4. 运行 `database/` 目录中的 SQL 脚本以设置数据库结构
+5. 在 Tomcat 服务器上部署
 
-## Project Structure
+## 📂 项目结构
 
 ```plaintext
 smart-library-system/
 ├── src/
 │   ├── main/
-│   │   ├── java/            # Java source files
-│   │   ├── webapp/          # JSP and static resources
-│   │   └── resources/       # Configuration files
-├── database/                # SQL scripts
-├── docs/                    # Documentation
-└── pom.xml                  # Maven configuration
+│   │   ├── java/            # Java 源文件
+│   │   ├── webapp/          # JSP 和静态资源
+│   │   └── resources/       # 配置文件
+├── database/                # SQL 脚本
+├── docs/                    # 文档
+└── pom.xml                  # Maven 配置文件
 ```
 
-## Contribution Guidelines
+## 🤝 贡献指南
 
-We welcome contributions from students and developers:
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+我们欢迎学生和开发者的贡献：
+1. 🍴 Fork 本仓库
+2. 🌿 创建你的功能分支（`git checkout -b feature/your-feature`）
+3. 💾 提交你的更改（`git commit -m 'Add some feature'`）
+4. 🚀 推送至分支（`git push origin feature/your-feature`）
+5. 📬 提交 Pull Request
 
-## Support & Community
+## 💬 支持与社区
 
-Join our discussion forum to ask questions and share ideas:
-- [GitHub Discussions](https://github.com/yourusername/smart-library-system/discussions)
+加入我们的讨论论坛以提问和分享想法：
+- [GitHub 讨论区](https://github.com/yourusername/smart-library-system/discussions) 🌐
 
-## Sponsorship
-
-This project is proudly supported by **VTEXS's [Open Source Free VPS Program]**, providing computational resources to power this open-source initiative. We extend our sincere gratitude to VTEXS for their commitment to supporting the open-source community and enabling students worldwide to access quality learning resources.
-
-Special thanks to VTEXS for:
-- Providing reliable hosting infrastructure
-- Supporting educational open-source projects
-- Empowering the next generation of developers
-
-[![Powered by VTEXS](https://img.shields.io/badge/Powered%20by-VTEXS-blue)](https://www.vtexs.com/open-source)
-
----
-
-**Note**: This project is intended for educational purposes. Commercial use requires proper licensing.
+**⚠ 注意**：本项目仅用于教育目的。切勿用于商业用途，会追究搬迁©️。
